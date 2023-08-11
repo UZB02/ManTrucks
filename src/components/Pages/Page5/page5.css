@@ -1,0 +1,93 @@
+.page5 {
+    padding: 50px 0;
+}
+
+.page5 .container {
+    /* background-color: aqua; */
+    padding: 20px 0;
+}
+
+.page5 .container h1 {
+    font-size: 4em;
+    letter-spacing: 2px;
+    font-weight: 400;
+    color: #27374D;
+}
+
+.page5 .container .cards {
+    /* background-color: red; */
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.page5 .container .cards .card {
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    gap: 10px;
+    width: 400px;
+    margin-top: 20px;
+    /* background-color: goldenrod; */
+}
+
+.page5 .container .cards .card .top {
+    width: 100%;
+}
+
+.page5 .container .cards .card .top img {
+    width: 100%;
+}
+
+.page5 .container .cards .card .link {
+    overflow: hidden;
+    width: 100%;
+    height: 30%;
+    display: flex;
+    /* background-color: greenyellow; */
+}
+
+.page5 .container .cards .card .link a {
+    color: #27374D;
+    font-size: 1.4em;
+    letter-spacing: 2px;
+    transition: all .3s ease;
+}
+
+.page5 .container .cards .card .link a:hover {
+    color: red;
+}
+
+.page5 .container .cards .card .text {
+    width: 100%;
+    height: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: red; */
+    overflow: hidden;
+}
+
+.page5 .container .cards .card .text p {
+    font-size: 1.1em;
+    letter-spacing: 1px;
+    font-weight: 10;
+    color: rgb(45, 44, 44);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.page5 .container .cards .card .btn a {
+    display: flex;
+    font-size: 1.2em;
+    font-weight: 100;
+    letter-spacing: .5px;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    color: rgb(45, 44, 44);
+    border: 2px solid gray;
+    transition: all .4s ease-in;
+}
+
+.page5 .container .cards .card .btn a:hover {
+    background-color: silver;
+}

@@ -1,0 +1,89 @@
+.page4 {
+    padding: 80px 0;
+}
+
+.page4 .container {
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: aqua; */
+    overflow-x: scroll;
+}
+
+.page4 .container .boxs {
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    /* padding: 0 10px; */
+    overflow-x: scroll;
+    /* background-color: red; */
+}
+
+.page4 .container .boxs .left {
+    padding: 30px 0;
+    background-color: #27374D;
+    width: 50%;
+    padding-right: 70px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.page4 .container .boxs .left .yellow {
+    background-color: gold;
+    width: 40%;
+    text-align: end;
+    padding: 10px;
+}
+
+.page4 .container .boxs .left .yellow h2 {
+    font-weight: 200;
+    letter-spacing: .5px;
+    color: #27374D;
+}
+
+.page4 .container .boxs .left .text {
+    padding: 0 45px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.page4 .container .boxs .left .text h1 {
+    font-size: 3em;
+    letter-spacing: .5px;
+    color: #fff;
+}
+
+.page4 .container .boxs .left .text p {
+    color: azure;
+    letter-spacing: .5px;
+    font-size: 1.1em;
+}
+
+.page4 .container .boxs .left .btn {
+    padding: 0 45px;
+}
+
+.page4 .container .boxs .left .btn a {
+    color: #fff;
+    background-color: crimson;
+    padding: 10px 30px;
+    font-size: 1.1em;
+    transition: all .3s ease;
+}
+
+.page4 .container .boxs .left .btn a:hover {
+    background-color: rgba(220, 20, 60, 0.847);
+}
+
+.page4 .container .boxs .right {
+    position: absolute;
+    width: 50%;
+    transform: translateX(600px) translateY(-50px);
+}
+
+.page4 .container .boxs .right img {
+    width: 100%;
+}

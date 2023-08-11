@@ -1,0 +1,182 @@
+.footer {
+    width: 100%;
+    background-color: #f4f5f6;
+    padding: 50px 0;
+    margin: 20px 0;
+}
+
+.footer .container {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.footer .container .top {
+    display: flex;
+    gap: 10px;
+
+}
+
+.footer .container h3 {
+    color: #303c49;
+    letter-spacing: 1px;
+}
+
+/* .footer .container .top    */
+
+.footer .container .top a {
+    color: #3d4854;
+    letter-spacing: .5px;
+    font-weight: 100;
+    transition: all .3s ease;
+}
+
+.footer .container .top a:hover {
+    color: crimson;
+}
+
+.footer .container .top .contact-us {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 25%;
+}
+
+.footer .container .top .social-media {
+    width: 25%;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.footer .container .top .social-media .links {
+    display: flex;
+    gap: 5px;
+}
+
+.footer .container .top .social-media .links:hover a {
+    color: crimson;
+}
+
+.footer .container .top .company {
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer .container .top .portals {
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer .container .centre {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.footer .container .centre .market-language {
+    display: flex;
+    gap: 400px;
+}
+
+.footer .container .centre .market-language .left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer .container .centre .market-language .left .links {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.footer .container .centre a {
+    color: #3d4854;
+    letter-spacing: .5px;
+    font-weight: 100;
+    transition: all .3s ease;
+}
+
+.footer .container .centre .market-language .left .links:hover a {
+    color: crimson;
+}
+
+.footer .container .centre .market-language .right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 20%;
+}
+
+.footer .container .centre .market-language .right select {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    border-bottom: 2px solid #303c49;
+}
+
+.footer .container .centre .market-language .right select option {
+    font-size: 1.2em;
+    letter-spacing: 1px;
+}
+
+.footer .container .centre .middle {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.footer .container .centre .middle .links {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.footer .container .centre .middle .links a {
+    color: #303c49;
+    letter-spacing: 1px;
+    transition: all .3s ease;
+}
+
+.footer .container .centre .middle .links a:hover {
+    color: crimson;
+}
+
+.footer .container .centre .middle .logo {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.footer .container .centre .middle .logo pre {
+    color: #303c49;
+    font-size: 1.1em;
+    margin-top: 20px;
+}
+
+.footer .container .bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer .container .bottom h2 {
+    color: #303c49;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.footer .container .bottom p {
+    font-family: MAN-light, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 50;
+    color: #303c49;
+    font-size: .95em;
+    line-height: 30px;
+}

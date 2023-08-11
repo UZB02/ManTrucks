@@ -1,0 +1,92 @@
+.page3 {
+    width: 100%;
+    padding: 50px 0;
+}
+
+.page3 .container {
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.page3 .container h1 {
+    font-size: 4.5em;
+    letter-spacing: 2px;
+    color: rgb(45, 44, 44);
+}
+
+.page3 .container .cards {
+    /* background-color: bisque; */
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    /* padding: 0 20px; */
+}
+
+.page3 .container .cards a {
+    color: rgb(45, 44, 44);
+    transition: all .3s ease;
+}
+
+.page3 .container .cards a:hover{
+    color: red;
+} 
+.page3 .container .cards .card {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+
+.page3 .container .cards .card .image {
+    overflow: hidden;
+    width: 400px;
+}
+
+.page3 .container .cards .card .image img {
+    width: 100%;
+    transition: all .3s ease-in-out;
+}
+
+.page3 .container .cards .card .image:hover img {
+    transform: scale(1.05);
+}
+
+.page3 .container .cards .card .texts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    height: 30%;
+    /* background-color: red; */
+}
+
+.page3 .container .cards .card .texts h3 {
+    border-left: 8px solid red;
+    padding: 0 10px;
+    font-size: 1.3em;
+    line-height: 20px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    color: silver;
+}
+
+.page3 .container .cards .card .btn a {
+    display: flex;
+    font-size: 1.2em;
+    font-weight: 100;
+    letter-spacing: .5px;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    color: rgb(45, 44, 44);
+    border: 2px solid gray;
+    transition: all .4s ease-in;
+}
+
+.page3 .container .cards .card .btn a:hover {
+    background-color: silver;
+}

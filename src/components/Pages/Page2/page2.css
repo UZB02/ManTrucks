@@ -1,0 +1,126 @@
+.page2 {
+    width: 100%;
+    padding: 30px 0;
+}
+
+.page2 .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.page2 .container .top {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #fff;
+}
+
+.page2 .container .top h1 {
+    font-size: 4.5em;
+    letter-spacing: 2px;
+    color: rgb(45, 44, 44);
+}
+
+.page2 .container h2 {
+    font-size: 1.8em;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: rgb(45, 44, 44);
+}
+
+.page2 .container .top .link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.page2 .container .top .link a {
+    font-size: 1.3em;
+    padding: 10px 15px;
+    letter-spacing: 1px;
+    color: rgb(45, 44, 44);
+    transition: all .3s ease-in-out;
+}
+
+.page2 .container .top .link a:hover {
+    border-bottom: 2px solid red;
+    color: red;
+}
+
+.page2 .container .top .link a:nth-child(1) {
+    border-bottom: 2px solid red;
+    color: red;
+}
+
+.page2 .container .bottom {
+    width: 100%;
+    display: flex;
+    overflow-x: scroll;
+    /* background-color: red; */
+}
+.page2 .container .bottom .cards {
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    padding: 0 10px;
+    overflow-x: scroll;
+}
+
+.page2 .container .bottom .cards .card {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+
+.page2 .container .bottom .cards .card .image {
+    overflow: hidden;
+    width: 400px;
+}
+
+.page2 .container .bottom .cards .card .image img {
+    width: 100%;
+    transition: all .3s ease-in-out;
+}
+
+.page2 .container .bottom .cards .card .image:hover img {
+    transform: scale(1.05);
+}
+
+.page2 .container .bottom .cards .card .texts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.page2 .container .bottom .cards .card .texts h3 {
+    border-left: 8px solid red;
+    padding: 0 10px;
+    font-size: 1.4em;
+    font-weight: 300;
+    letter-spacing: 1px;
+    color: silver;
+}
+
+
+.page2 .container .bottom .cards .card .btn a {
+    display: flex;
+    font-size: 1.2em;
+    font-weight: 100;
+    letter-spacing: .5px;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    color: rgb(45, 44, 44);
+    border: 2px solid gray;
+    transition: all .4s ease-in;
+}
+
+.page2 .container .bottom .cards .card .btn a:hover {
+    background-color: silver;
+}

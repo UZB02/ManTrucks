@@ -1,0 +1,44 @@
+.containerr {
+    background-color: darkcyan;
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.containerr .top {
+    background-color: silver;
+    width: 200px;
+    color: #fff;
+    text-shadow: 2px 2px 1px black;
+    text-align: center;
+    padding: 10px;
+    font-size: 2em;
+    border-radius: 10px;
+    overflow-x: scroll;
+}
+
+.containerr .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.containerr .btn button {
+    padding: 10px 40px;
+    cursor: pointer;
+    font-size: 2em;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px 2px black;
+    background-color: blue;
+    color: #fff;
+    text-shadow: 20px 10px 0px gainsboro;
+    transition: all .3s ease-in;
+}
+
+.containerr .btn button:hover{
+    transform: scale(.95);
+}

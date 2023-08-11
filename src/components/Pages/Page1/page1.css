@@ -1,0 +1,53 @@
+.page1 {
+    width: 100%;
+    height: 630px;
+    background: url(./MAN_TGX_EfficientLine.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    backface-visibility: visible;
+    display: flex;
+    align-items: center;
+}
+
+.page1 .container {
+    /* background-color: red; */
+    height: 80%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.page1 .container .box {
+    width: 42%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.page1 .container .box h2 {
+    font-size: 2.8em;
+    color: #fff;
+
+    letter-spacing: 2px;
+}
+
+.page1 .container .box h2 sup {
+    font-size: 25px;
+}
+
+.page1 .container .box a {
+    background-color: crimson;
+    width: 40%;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 10px 35px;
+    color: #fff;
+    font-size: 1.5em;
+    transition: all .3s ease;
+}
+
+.page1 .container .box a:hover{
+    background-color: rgba(220, 20, 60, 0.847);
+}
